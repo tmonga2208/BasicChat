@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+.biglist{    
+    width: 100vw;
+    height: 95vh;
+}
+.userpage{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userlist{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ccc;
+    overflow-y:auto;
+    overflow-x: auto;
+}
+.userlistitem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 400px;
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+}
+.userlistitem img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.userlistitem p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textright{
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+}
+.textleft{
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+.messagediv{
+    width: 100%;
+    overflow-y: auto;
+}
+.themessfrm{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    right: 0;
+}
+.themessfrm input{
+    width: 90%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.bgblue{
+    background-color: #007bff;
+    border-radius: 12px;
+    color: white;
+    display: inline-block;
+    padding: 10px 5px;
+}
+.bggray{
+    background-color: darkgray;
+    border-radius: 12px;
+    color: white;
+    display: inline-block;
+    padding: 10px 5px;
+}
+.header3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
